@@ -1,5 +1,4 @@
-santa_pos = (0,0)
-robo_pos = (0,0)
+pos = (0,0)
 presents = {}
 
 def update_pos(pos, c):
@@ -14,16 +13,10 @@ def update_pos(pos, c):
 
     return new_pos
 
-with open('3-input.txt') as file:
-    turn = 'santa'
+with open('ex03-input.txt') as file:
     for line in file:
         for c in line:
-            if (turn == 'santa')
-                new_pos = santa_pos = update_pos(santa_pos, c)
-                turn = 'robo'
-            else:
-                new_pos = robo_pos = update_pos(robo_pos, c)
-                turn = 'santa'
+            pos = update_pos(pos, c)
 
             if pos not in presents:
                 presents[pos] = 1

@@ -29,7 +29,7 @@ def has_repeated_char(str):
 def is_good(str):
     return has_repeated_pair(str) and has_repeated_char(str)
 
-with open('5-input.txt') as file:
+with open('ex05-input.txt') as file:
     for line in file:
         if is_good(line):
             good_strings.append(line)

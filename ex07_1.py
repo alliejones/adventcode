@@ -106,7 +106,7 @@ def connect(wire, cmd, *args):
     Gate = classes[cmd]
     circuit[wire] = Gate(*args)
 
-with open("7-input.txt") as file:
+with open("ex07-input.txt") as file:
     for line in file:
        connect(*parse(line))
 

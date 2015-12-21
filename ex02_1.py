@@ -1,6 +1,6 @@
 total_area = 0
 
-with open('2-input.txt') as file:
+with open('ex02-input.txt') as file:
     for line in file:
         sides = map(int, line.split('x'))
         w, h, l = sides

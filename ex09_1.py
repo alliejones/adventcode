@@ -2,7 +2,7 @@ import re
 import itertools
 
 distances = {}
-with open('ex9-input.txt') as file:
+with open('ex09-input.txt') as file:
     for line in file:
         c1, c2, dist = re.search('(\w+) to (\w+) = (\d+)', line).groups()
 

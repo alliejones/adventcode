@@ -1,6 +1,6 @@
 floor = 0
 basement_pos = None
-with open('1-input.txt') as file:
+with open('ex01-input.txt') as file:
     pos = 0
     for line in file:
         for ch in line:

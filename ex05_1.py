@@ -9,7 +9,7 @@ def is_good(str):
 
     return has_three_vowels and has_dup_char and no_disallowed_str
 
-with open('5-input.txt') as file:
+with open('ex05-input.txt') as file:
     for line in file:
         if is_good(line):
             good_strings.append(line)

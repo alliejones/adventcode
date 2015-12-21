@@ -1,5 +1,5 @@
 floor = 0
-with open('1-input.txt') as file:
+with open('ex01-input.txt') as file:
     for line in file:
         for ch in line:
             if ch == '(':
